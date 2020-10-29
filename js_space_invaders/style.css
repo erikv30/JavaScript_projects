@@ -1,0 +1,46 @@
+* {
+  margin: auto;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
+}
+
+header {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  width: 300px;
+  height: 300px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.shooter {
+  background-color: #2ebc4f;
+}
+
+.invader {
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+
+.boom {
+  background-color: orange;
+}
+
+.laser {
+  background-color: #e74c3c;
+}
