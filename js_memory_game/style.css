@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.board {
+  padding: 50px 25px 0 100px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+  padding-top: 50px;
+}
