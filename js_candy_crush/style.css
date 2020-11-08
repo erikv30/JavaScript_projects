@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.grid {
+  height: 560px;
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 120px;
+  background-color: rgba(135, 207, 235, 0.8);
+  border-radius: 10px;
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background-image: url(./img/pexels-foodie-factor-539447.jpg);
+}
+
+.score-board {
+  height: 30px;
+  width: 100px;
+  margin: 80px;
+  background-color: rgba(135, 207, 235, 0.8);
+  border-radius: 10px;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
